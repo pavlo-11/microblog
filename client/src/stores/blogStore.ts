@@ -44,7 +44,7 @@ export const useBlogStore = defineStore('blog', () => {
     Life: 'Life'
   }
 
-  // Логін (простий)
+  // Логін
   function login() {
     isLoggedIn.value = true
     localStorage.setItem('isLoggedIn', 'true')
